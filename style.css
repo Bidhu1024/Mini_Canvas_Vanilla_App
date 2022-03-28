@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 1px solid black;
+    height:100vh;
+  cursor: pointer;
+}
+nav{
+border: 0.8px solid black;
+} 
+#play{
+    background-color: lightgreen;
+    color: black;
+    padding:3px 20px;
+    margin-left: 120px;
+
+}
+#select{
+    background-color: blue;
+    color: white;
+    padding: 4px 30px;
+    float: right;
+    margin-right: 30px;
+}
+
+
+
+.btn{
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: blue;
+    cursor: pointer;
+    font: 1.2em 'consolas';
+    transition: transform 300ms ease;
+    z-index: 2;
+}
+
+btn:hover{
+    color: white;
+    background-color: blue;
+}
